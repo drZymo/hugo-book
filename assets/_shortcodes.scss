@@ -101,4 +101,21 @@
       }
     }
   }
+  // {{< codesnippet >}}
+  .code-snippet {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding: 0 2em;
+    .filename {
+      font-weight: bold;
+      padding: 0;
+      margin: 0;
+    }
+    .markdown-inner pre {
+      padding: 0;
+    }
+  }
 }
